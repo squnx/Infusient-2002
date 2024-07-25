@@ -1,0 +1,169 @@
+<HTML>
+  <HEAD>
+    <TITLE>:: Infusient LLC:: Home Page</TITLE>
+	<META NAME="KEYWORDS" CONTENT="Review Ivan's links and portfolio!">
+	<META NAME="DESCRIPTION" CONTENT="">
+	<META http-equiv="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<LINK REL="Stylesheet" HREF="css/default.css" TYPE="text/css">
+  </HEAD>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+function SwitchImg()
+{ //start
+  var rem, keep=0, store, obj, switcher=new Array, history=document.Data;
+    for (rem=0; rem < (SwitchImg.arguments.length-2); rem+=3) {
+    	store = SwitchImg.arguments[(navigator.appName == 'Netscape')?rem:rem+1];
+    if ((store.indexOf('document.layers[')==0 && document.layers==null) ||
+        (store.indexOf('document.all[')==0 && document.all==null))
+         store = 'document'+store.substring(store.lastIndexOf('.'),store.length);
+         obj = eval(store);
+    if (obj != null) {
+   	   switcher[keep++] = obj;
+      switcher[keep++] = (history==null || history[keep-1]!=obj)?obj.src:history[keep];
+      obj.src = SwitchImg.arguments[rem+2];
+  } }
+  document.Data = switcher;
+} //end
+
+function RestoreImg()
+{ //start
+  if (document.Data != null)
+    for (var rem=0; rem<(document.Data.length-1); rem+=2)
+      document.Data[rem].src=document.Data[rem+1];
+} //end
+</SCRIPT>
+  <BODY BGCOLOR="FFFFFF" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+	<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+	  <TR>
+        <TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="760" COLSPAN="3" BACKGROUND="images/bg_top.gif" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="760" HEIGHT="12" BORDER="0"></TD>
+		<TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+	  </TR>
+	  <TR>
+        <TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="150" VALIGN="TOP"><IMG SRC="images/logo_infusient.gif" WIDTH="150" HEIGHT="40"></TD>
+		<TD WIDTH="150" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="150" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="460" BACKGROUND="images/nav.gif" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="460" HEIGHT="40" NAME="myimg1" USEMAP="#nav" BORDER="0"></TD>
+		<MAP NAME="nav">
+		<area shape=rect coords="89,20 155,35" href="products/index.html" onMouseOut="RestoreImg()" onMouseOver="SwitchImg('document.myimg1','document.myimg1','images/nav02.gif')">
+		<area shape=rect coords="174,20 236,35" href="services/index.html" onMouseOut="RestoreImg()" onMouseOver="SwitchImg('document.myimg1','document.myimg1','images/nav03.gif')">
+		<area shape=rect coords="255,20 312,35" href="support/index.html" onMouseOut="RestoreImg()" onMouseOver="SwitchImg('document.myimg1','document.myimg1','images/nav04.gif')">
+		<area shape=rect coords="332,20 375,35" href="about/index.html" onMouseOut="RestoreImg()" onMouseOver="SwitchImg('document.myimg1','document.myimg1','images/nav05.gif')">
+		<area shape=rect coords="395,20 451,35" href="contact/index.html" onMouseOut="RestoreImg()" onMouseOver="SwitchImg('document.myimg1','document.myimg1','images/nav06.gif')">
+		</MAP>
+		<TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1"></TD>
+	  </TR>
+	  <TR>
+        <TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="760" COLSPAN="3" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="15" BORDER="0"></TD>
+		<TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+	  </TR>
+    </TABLE>
+	<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+	  <TR>
+        <TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="760" VALIGN="TOP"><IMG SRC="images/main.jpg" WIDTH="760" HEIGHT="230" BORDER="0"><BR>
+		  <IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="15" BORDER="0"></TD>
+		<TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+	  </TR>
+    </TABLE>
+	<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+	  <TR>
+        <TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="480" VALIGN="TOP"><IMG SRC="images/title01.gif" WIDTH="480" HEIGHT="30" BORDER="0"><BR>
+		  <IMG SRC="images/shim_grey.gif" WIDTH="480" HEIGHT="3" BORDER="0"><BR>
+		  <IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="3" BORDER="0"><BR>
+		  <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+		    <TR>
+			  <TD WIDTH="240" VALIGN="TOP">
+			    <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/icon01.gif" WIDTH="16" HEIGHT="16" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="title01" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Alchemy Framework</B></A></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="maintext" VALIGN="TOP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<BR><BR></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/icon01.gif" WIDTH="16" HEIGHT="16" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="title01" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Alchemy ERP</B></A></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="maintext" VALIGN="TOP">Phasellus vestibulum ultrices lectus. Cras quis nunc at lectus sodales malesuada.<BR><BR></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/icon01.gif" WIDTH="16" HEIGHT="16" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="title01" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Alchemy Task Manager</B></A></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="maintext" VALIGN="TOP">Aenean nunc odio, ullamcorper nec, sodales quis, auctor quis, massa.<BR><BR></TD>
+				  </TR>
+				</TABLE>
+			  </TD>
+			  <TD WIDTH="240" VALIGN="TOP">
+			    <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/icon01.gif" WIDTH="16" HEIGHT="16" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="title01" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Stacs</B></A></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="maintext" VALIGN="TOP">Sed non pede a pede tempus aliquam. Nulla facilisi. Etiam sit amet sem in massa consequat lacinia.<BR><BR></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/icon01.gif" WIDTH="16" HEIGHT="16" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="title01" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Powerful administration</B></A></TD>
+				  </TR>
+				  <TR>
+				    <TD WIDTH="16" CLASS="icon01" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+					<TD WIDTH="224" CLASS="maintext" VALIGN="TOP">Mauris egestas ante sit amet magna. Morbi faucibus risus non augue. Fusce nec lorem. Cras sapien elit, posuere at, venen<BR><BR></TD>
+				  </TR>
+				</TABLE>
+			  </TD>
+			</TR>
+		  </TABLE>
+		</TD>
+		<TD WIDTH="35" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="35" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="245" VALIGN="TOP"><IMG SRC="images/title02.gif" WIDTH="245" HEIGHT="30" BORDER="0"><BR>
+		  <IMG SRC="images/shim_grey.gif" WIDTH="245" HEIGHT="3" BORDER="0"><BR>
+		  <IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="3" BORDER="0"><BR>
+		  <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+		    <TR>
+			  <TD WIDTH="12" CLASS="icon02" VALIGN="TOP"><IMG SRC="images/icon02.gif" WIDTH="12" HEIGHT="12" BORDER="0"></TD>
+			  <TD WIDTH="233" CLASS="maintext" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Lorem ipsum dolor sit amet</B></A>, consectetuer adipiscing elit.<BR><BR></TD>
+			</TR>
+		    <TR>
+			  <TD WIDTH="12" CLASS="icon02" VALIGN="TOP"><IMG SRC="images/icon02.gif" WIDTH="12" HEIGHT="12" BORDER="0"></TD>
+			  <TD WIDTH="233" CLASS="maintext" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Class aptent taciti sociosqu</B></A> ad litora torquent per conubia nostra, per inceptos hymenaeos.<BR><BR></TD>
+			</TR>
+		    <TR>
+			  <TD WIDTH="12" CLASS="icon02" VALIGN="TOP"><IMG SRC="images/icon02.gif" WIDTH="12" HEIGHT="12" BORDER="0"></TD>
+			  <TD WIDTH="233" CLASS="maintext" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Morbi dolor lorem</B></A>, consequat nec, consequat nec, vulputate placerat, turpis.<BR><BR></TD>
+			</TR>
+		    <TR>
+			  <TD WIDTH="12" CLASS="icon02" VALIGN="TOP"><IMG SRC="images/icon02.gif" WIDTH="12" HEIGHT="12" BORDER="0"></TD>
+			  <TD WIDTH="233" CLASS="maintext" VALIGN="TOP"><A HREF="{linkplaceholder}"><B>Vestibulum ante ipsum primis</B></A> in faucibus orci luctus et ultrices posuere cubilia Curae.<BR><BR></TD>
+			</TR>
+		  </TABLE>
+		</TD>
+		<TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+	  </TR>
+	  
+	  <!-- FOOTER BEGIN -->
+	  <TR>
+        <TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+		<TD WIDTH="760" COLSPAN="3"  BACKGROUND="images/bg_footer.gif" VALIGN="TOP" CLASS="footer">
+		  <IMG SRC="images/icon02.gif" WIDTH="12" HEIGHT="12" BORDER="0">
+		  Copyright 2002 Infusient LLC. All rights reserved.</TD>
+		<TD WIDTH="50%" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="10" HEIGHT="1" BORDER="0"></TD>
+	  </TR>
+	  <!-- FOOTER END -->
+	  
+	  <TR>
+		<TD WIDTH="760" COLSPAN="5" VALIGN="TOP"><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD>
+	  </TR>
+    </TABLE>
+  </BODY>
+</HTML>
